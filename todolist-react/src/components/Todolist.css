@@ -1,0 +1,49 @@
+.navbar {
+  width: 20%;
+  display: inline-block;
+}
+.timeline{
+  display: inline-block;
+  width: 80%;
+}
+h1{
+  text-align: center;
+}
+.navbar ul{
+  text-align: center;
+  list-style-type: none;
+}
+ul{
+  list-style-type: none;
+}
+li{
+
+}
+a{
+  text-decoration: none;
+}
+.add-todo{
+  margin-left: 15%;
+}
+.add-todo input{
+  width: 70%;
+  padding: 7px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+.text{
+  margin-left: 10px;
+}
+.delete{
+  padding: 1px 6px;
+  float: right;
+  margin-right: 50px;
+  background: rgb(185, 35, 35);
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.list-todos ul{
+  list-style-type: none;
+}
