@@ -27,7 +27,7 @@ class Timeline extends React.Component {
   render() {
     return (
       <div className="timeline">
-        <Header />
+        <Header todos={this.state.todos}  />
         <ListTodo todos={this.state.todos} deleteTodo={(todo)=>this.handleDeleteTodo(todo)}/>
         <AddTodo newTodo={(todo)=>this.handleNewTodo(todo)}/>
       </div>
